@@ -58,8 +58,11 @@ local Button = Tab:CreateButton({
 
 
 local Button = Tab:CreateButton({
-   Name = "Stalkie Animations",
+   Name = "Stalkie Animations (Freaky)",
    Callback = function()
    loadstring(game:HttpGet("https://www.ghostbin.cloud/iswbq/raw"))()
    end,
 })
+
+
+local Tab = Window:CreateTab("Arsenal", 4483362458) -- Title, Image
