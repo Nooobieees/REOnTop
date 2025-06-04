@@ -65,4 +65,23 @@ local Button = Tab:CreateButton({
 })
 
 
-local Tab = Window:CreateTab("Arsenal", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Owl Hub", 4483362458) -- Title, Image
+
+
+local Button = Tab:CreateButton({
+   Name = "Owl Hub (Works For Any Game)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+   end,
+})
+
+
+local Tab = Window:CreateTab("Grow A Garden", 4483362458) -- Title, Image
+
+
+local Button = Tab:CreateButton({
+   Name = "No-Lag (Patched Infinite Sheckles)",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV1.lua"))()
+   end,
+})
